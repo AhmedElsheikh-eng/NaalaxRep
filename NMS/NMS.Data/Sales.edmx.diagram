@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e82866c13b0f4ea4829e266792716ae7" Name="Diagram1" ZoomLevel="86">
+        <EntityTypeShape EntityType="Inventory_ManagementXModel.Activity" Width="1.5" PointX="6" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Inventory_ManagementXModel.Auxiliary" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Inventory_ManagementXModel.Branch" Width="1.5" PointX="5.25" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Inventory_ManagementXModel.City" Width="1.5" PointX="3" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Inventory_ManagementXModel.Company" Width="1.5" PointX="8.25" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Inventory_ManagementXModel.Company_Type" Width="1.5" PointX="6" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Inventory_ManagementXModel.Country" Width="1.5" PointX="0.75" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Inventory_ManagementXModel.Currency" Width="1.5" PointX="6" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Inventory_ManagementXModel.Customer" Width="1.5" PointX="10.75" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Inventory_ManagementXModel.Employess" Width="1.5" PointX="7.5" PointY="18.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Inventory_ManagementXModel.GL" Width="1.5" PointX="0.625" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Inventory_ManagementXModel.Installment" Width="1.5" PointX="13" PointY="22.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Inventory_ManagementXModel.Invoice" Width="1.5" PointX="13" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Inventory_ManagementXModel.Item" Width="1.5" PointX="16" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Inventory_ManagementXModel.Items_Group" Width="1.5" PointX="13.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Inventory_ManagementXModel.Supplier" Width="1.5" PointX="3" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Inventory_ManagementXModel.sysdiagram" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Inventory_ManagementXModel.Tree" Width="1.5" PointX="5.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Inventory_ManagementXModel.Unit" Width="1.5" PointX="13.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="Inventory_ManagementXModel.WareHouse" Width="1.5" PointX="10.75" PointY="15.375" IsExpanded="true" />
+        <AssociationConnector Association="Inventory_ManagementXModel.FK_Companies_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="Inventory_ManagementXModel.FK_Auxiliary_GL" ManuallyRouted="false" />
+        <AssociationConnector Association="Inventory_ManagementXModel.FK_Tree_Aux" ManuallyRouted="false" />
+        <AssociationConnector Association="Inventory_ManagementXModel.FK_Branches_City" ManuallyRouted="false" />
+        <AssociationConnector Association="Inventory_ManagementXModel.FK_Branches_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="Inventory_ManagementXModel.FK_Employess_Branches" ManuallyRouted="false" />
+        <AssociationConnector Association="Inventory_ManagementXModel.FK_Invoice_Branch" ManuallyRouted="false" />
+        <AssociationConnector Association="Inventory_ManagementXModel.FK_WareHouse_Branch" ManuallyRouted="false" />
+        <AssociationConnector Association="Inventory_ManagementXModel.FK_Cities_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="Inventory_ManagementXModel.FK_Companies_City" ManuallyRouted="false" />
+        <AssociationConnector Association="Inventory_ManagementXModel.FK_Items_City" ManuallyRouted="false" />
+        <AssociationConnector Association="Inventory_ManagementXModel.FK_Companies_CompType" ManuallyRouted="false" />
+        <AssociationConnector Association="Inventory_ManagementXModel.FK_Companies_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="Inventory_ManagementXModel.FK_Companies_Curr" ManuallyRouted="false" />
+        <AssociationConnector Association="Inventory_ManagementXModel.FK_Invoice_Comp" ManuallyRouted="false" />
+        <AssociationConnector Association="Inventory_ManagementXModel.FK_Items_Comp" ManuallyRouted="false" />
+        <AssociationConnector Association="Inventory_ManagementXModel.FK_Items_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="Inventory_ManagementXModel.FK_Suppliers_SuppliersCountry" ManuallyRouted="false" />
+        <AssociationConnector Association="Inventory_ManagementXModel.FK_Invoice_Curr" ManuallyRouted="false" />
+        <AssociationConnector Association="Inventory_ManagementXModel.FK_Installment_Cust" ManuallyRouted="false" />
+        <AssociationConnector Association="Inventory_ManagementXModel.FK_Invoice_Cus" ManuallyRouted="false" />
+        <AssociationConnector Association="Inventory_ManagementXModel.FK_WareHouse_Emp" ManuallyRouted="false" />
+        <AssociationConnector Association="Inventory_ManagementXModel.FK_Tree_GL" ManuallyRouted="false" />
+        <AssociationConnector Association="Inventory_ManagementXModel.FK_Invoice_Items" ManuallyRouted="false" />
+        <AssociationConnector Association="Inventory_ManagementXModel.FK_Invoice_Supp" ManuallyRouted="false" />
+        <AssociationConnector Association="Inventory_ManagementXModel.FK_Invoice_Unit" ManuallyRouted="false" />
+        <AssociationConnector Association="Inventory_ManagementXModel.FK_Invoice_Ware" ManuallyRouted="false" />
+        <AssociationConnector Association="Inventory_ManagementXModel.FK_Items_IteGr" ManuallyRouted="false" />
+        <AssociationConnector Association="Inventory_ManagementXModel.FK_Items_Unit" ManuallyRouted="false" />
+        <AssociationConnector Association="Inventory_ManagementXModel.FK_Items_WareH" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
